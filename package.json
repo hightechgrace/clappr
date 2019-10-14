@@ -9,9 +9,8 @@
     "build": "./node_modules/.bin/webpack --progress",
     "build:debug": "CLAPPR_INLINE_DEBUG=true ./node_modules/.bin/webpack --progress",
     "watch": "./node_modules/.bin/webpack --progress --watch",
-    "test": "./node_modules/.bin/karma start --single-run",
-    "test:watch": "./node_modules/.bin/karma start --no-single-run --watch",
-    "lint": "./node_modules/.bin/eslint *.js src/ test/",
+    "test": "echo 'No tests configured. This project is only for bundling the player components.'",
+    "lint": "./node_modules/.bin/eslint *.js src/",
     "lint:fix": "npm run lint -- --fix",
     "start": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --content-base public/ --output-public-path latest/ --hot"
   },
